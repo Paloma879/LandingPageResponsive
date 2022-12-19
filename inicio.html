@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inicio.css" >
+    <title>Landing</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">HEILUNG</div>
+        <span class="menubtn" onclick="openNav()">&#9776;</span>
+        <div class="navLinks">
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Nosotros</a>
+                </li>
+                <li>
+                    <a href="#">Servicios</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+                <button type="button">Logueate</button>
+            </ul>
+        </div>
+    </nav>
+    <div class="sideNav" id="sidenav">
+        <a href="#" class="clodeBtn" onclick="closeNav()">&#10006;</a>
+        <a href="#">Inicio</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+        <a href="#"><button type="button">Login</button></a>
+    </div>
+    <div class="row">
+        <div class="column1">
+
+        </div>
+        <div class="column2">
+            <h1>Responsive Design</h1>
+            <p>Contact us for Responsive web Design to grow your business!</p>
+            <button>PURCHASE</button>
+        </div>
+    </div>
+<script>
+    function openNav() {
+        document.getElementById("sidenav").style.width = "50%";
+    }
+    function closeNav() {
+        document.getElementById("sidenav").style.width = "0%";
+    }
+    
+</script>
+    
+</body>
+</html>
